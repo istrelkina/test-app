@@ -1,4 +1,5 @@
 //import logo from "./logo.svg";
+import "@fontsource/roboto";
 import "./App.scss";
 import Header from "./header/Header";
 
