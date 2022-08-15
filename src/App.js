@@ -1,12 +1,14 @@
-//import logo from "./logo.svg";
 import "@fontsource/roboto";
+import "@fontsource/roboto/500.css";
 import "./App.scss";
-import Header from "./header/Header";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
+      <Sidebar />
     </div>
   );
 };

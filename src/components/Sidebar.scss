@@ -1,0 +1,106 @@
+@import "../var";
+.sidebar {
+  padding: 25px 16px 0 16px;
+  background-color: #fff;
+  border: 1px solid rgba(63, 63, 68, 0.005);
+  box-shadow: 0px 1px 0px rgba(63, 63, 68, 0.05), 0px 1px 3px rgba(63, 63, 68, 0.15);
+  &__user {
+    text-align: center;
+    border-bottom: 1px solid $hr;
+  }
+  &__name {
+    margin-top: 16px;
+  }
+  &__job {
+    padding-top: 4px;
+    padding-bottom: 23px;
+    font-size: 14px;
+    color: $text-light;
+  }
+  &__support {
+    padding: 24px 16px;
+  }
+}
+.user-nav {
+  border-bottom: 1px solid $hr;
+
+  &__list {
+    list-style: none;
+    margin: 37px 0 29px 0;
+    padding: 0 0 0 16px;
+  }
+  &__item {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 34px;
+    padding-left: 32px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 24px;
+      height: 24px;
+      top: -3px;
+      left: 0;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: cover;
+    }
+    a {
+      text-decoration: none;
+      color: $text;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &_dashboard::before {
+      background-image: url("./../images/icons/dashboard.svg");
+    }
+    &_users::before {
+      background-image: url("./../images/icons/users.svg");
+    }
+    &_products::before {
+      background-image: url("./../images/icons/products.svg");
+    }
+    &_auth::before {
+      background-image: url("./../images/icons/auth.svg");
+    }
+    &_typography::before {
+      background-image: url("./../images/icons/typography.svg");
+    }
+    &_icons::before {
+      background-image: url("./../images/icons/icons.svg");
+    }
+  }
+}
+.support {
+  &__title {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.32);
+    margin-bottom: 21px;
+  }
+  &__link a {
+    font-weight: 500;
+    text-decoration: none;
+    color: $text;
+    padding-left: 32px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 24px;
+      height: 24px;
+      top: -2px;
+      left: 0;
+      background-image: url("./../images/icons/support.svg");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: cover;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
