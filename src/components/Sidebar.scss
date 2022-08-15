@@ -50,8 +50,9 @@
     a {
       text-decoration: none;
       color: $text;
+      transition: all 0.3s;
       &:hover {
-        text-decoration: underline;
+        color: $text-hover;
       }
     }
     &_dashboard::before {
@@ -83,10 +84,12 @@
   }
   &__link a {
     font-weight: 500;
+    font-size: 14px;
     text-decoration: none;
     color: $text;
     padding-left: 32px;
     position: relative;
+    transition: all 0.3s;
     &::before {
       position: absolute;
       content: "";
@@ -100,7 +103,7 @@
       background-size: cover;
     }
     &:hover {
-      text-decoration: underline;
+      color: $text-hover;
     }
   }
 }

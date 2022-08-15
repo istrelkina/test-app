@@ -1,0 +1,7 @@
+.main {
+  width: 100%;
+  &__info {
+    display: grid;
+    grid-template-columns: 375px 910px;
+  }
+}

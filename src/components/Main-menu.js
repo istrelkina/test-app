@@ -1,0 +1,22 @@
+import "./Main-menu.scss";
+import { Link } from "react-router-dom";
+
+const MainMenu = () => {
+  return (
+    <nav className="menu">
+      <ul className="menu__list">
+        <li className="menu__item">
+          <Link to="/">Profile</Link>
+        </li>
+        <li className="menu__item">
+          <Link to="/">Account</Link>
+        </li>
+        <li className="menu__item">
+          <Link to="/">Price Plans</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default MainMenu;
