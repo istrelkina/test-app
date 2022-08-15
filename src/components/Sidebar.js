@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
+    <section className="sidebar">
       <div className="sidebar__user">
         <img src={ava} alt="Avatar" />
         <div className="sidebar__name">Roman Kutepov</div>
@@ -41,7 +41,7 @@ const Sidebar = () => {
           <Link to="/">Support</Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

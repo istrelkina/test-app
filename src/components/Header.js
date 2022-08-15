@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <div className="header__left">
         <div className="header__logo">
           <img src={logo} alt="Logo" />
@@ -26,7 +26,7 @@ const Header = () => {
           <img src={exit} alt="Exit" />
         </button>
       </div>
-    </div>
+    </header>
   );
 };
 

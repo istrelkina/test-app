@@ -6,14 +6,14 @@ import "./Main.scss";
 
 const Main = () => {
   return (
-    <div className="main">
+    <section className="main">
       <MainMenu />
       <div className="main__info">
         <MainAbout />
         <MainProfile />
         <MainNotifications />
       </div>
-    </div>
+    </section>
   );
 };
 
