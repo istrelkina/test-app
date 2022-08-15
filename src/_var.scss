@@ -5,3 +5,18 @@ $text: #66788a;
 $text-hover: #3f4d5b;
 $text-nav: #3a3b3f;
 $active: #1665d8;
+$btn: #425a70;
+
+@mixin box-shadow {
+  background: #ffffff;
+  border: 1px solid rgba(63, 63, 68, 0.005);
+  box-shadow: 0px 1px 3px rgba(63, 63, 68, 0.15);
+  border-radius: 4px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+}

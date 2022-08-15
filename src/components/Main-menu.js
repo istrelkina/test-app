@@ -6,13 +6,19 @@ const MainMenu = () => {
     <nav className="menu">
       <ul className="menu__list">
         <li className="menu__item">
-          <Link to="/">Profile</Link>
+          <Link className="menu__link menu__link_active" to="/">
+            Profile
+          </Link>
         </li>
         <li className="menu__item">
-          <Link to="/">Account</Link>
+          <Link className="menu__link" to="/">
+            Account
+          </Link>
         </li>
         <li className="menu__item">
-          <Link to="/">Price Plans</Link>
+          <Link className="menu__link" to="/">
+            Price Plans
+          </Link>
         </li>
       </ul>
     </nav>
