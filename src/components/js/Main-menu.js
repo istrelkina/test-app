@@ -1,4 +1,4 @@
-import "./Main-menu.scss";
+import "./../scss/Main-menu.scss";
 import { Link } from "react-router-dom";
 
 const MainMenu = () => {

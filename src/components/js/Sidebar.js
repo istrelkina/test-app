@@ -1,8 +1,5 @@
-import "./Sidebar.scss";
-import ava from "./../images/avatar.png";
-// import notif from "./../images/icons/notif.svg";
-// import exit from "./../images/icons/exit.svg";
-// import { Link } from "react-router-dom";
+import "./../scss/Sidebar.scss";
+import ava from "./../../images/avatar.png";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {

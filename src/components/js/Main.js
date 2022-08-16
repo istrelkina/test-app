@@ -2,7 +2,7 @@ import MainMenu from "./Main-menu";
 import MainAbout from "./Main-about";
 import MainProfile from "./Main-profile";
 import MainNotifications from "./Main-notifications";
-import "./Main.scss";
+import "./../scss/Main.scss";
 
 const Main = () => {
   return (

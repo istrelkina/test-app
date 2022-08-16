@@ -1,8 +1,12 @@
+@import "./var";
 .main {
   width: 100%;
+  background-color: $bg;
   &__info {
     display: grid;
     grid-template-columns: 375px 910px;
+    grid-column-gap: 28px;
+    grid-row-gap: 24px;
     padding: 24px;
   }
 }

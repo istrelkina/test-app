@@ -1,4 +1,4 @@
-@import "../var";
+@import "./var";
 .about {
   @include box-shadow;
   &__info {
@@ -38,7 +38,4 @@
   &:hover {
     color: $active;
   }
-}
-.about__buttons_active {
-  color: $active;
 }

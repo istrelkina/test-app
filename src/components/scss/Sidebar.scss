@@ -1,5 +1,7 @@
-@import "../var";
+@import "./var";
 .sidebar {
+  position: relative;
+  z-index: 5;
   padding: 25px 16px 0 16px;
   background-color: #fff;
   border: 1px solid rgba(63, 63, 68, 0.005);
@@ -56,22 +58,22 @@
       }
     }
     &_dashboard::before {
-      background-image: url("./../images/icons/dashboard.svg");
+      background-image: url("./../../images/icons/dashboard.svg");
     }
     &_users::before {
-      background-image: url("./../images/icons/users.svg");
+      background-image: url("./../../images/icons/users.svg");
     }
     &_products::before {
-      background-image: url("./../images/icons/products.svg");
+      background-image: url("./../../images/icons/products.svg");
     }
     &_auth::before {
-      background-image: url("./../images/icons/auth.svg");
+      background-image: url("./../../images/icons/auth.svg");
     }
     &_typography::before {
-      background-image: url("./../images/icons/typography.svg");
+      background-image: url("./../../images/icons/typography.svg");
     }
     &_icons::before {
-      background-image: url("./../images/icons/icons.svg");
+      background-image: url("./../../images/icons/icons.svg");
     }
   }
 }
@@ -97,7 +99,7 @@
       height: 24px;
       top: -2px;
       left: 0;
-      background-image: url("./../images/icons/support.svg");
+      background-image: url("./../../images/icons/support.svg");
       background-repeat: no-repeat;
       background-position: 0 0;
       background-size: cover;

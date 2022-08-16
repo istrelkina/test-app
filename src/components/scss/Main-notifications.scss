@@ -1,0 +1,30 @@
+@import "./common";
+
+.notif {
+  grid-column: 2/3;
+  &__wrapper {
+    padding: 24px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__notifications {
+    flex: 0 1 250px;
+  }
+  &__title {
+    margin-bottom: 24px;
+  }
+  &__input {
+    margin-bottom: 16px;
+    label {
+      letter-spacing: 0.15px;
+      color: rgba(0, 0, 0, 0.6);
+      padding-left: 9px;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 14px;
+    color: $text;
+    padding-left: 29px;
+  }
+}

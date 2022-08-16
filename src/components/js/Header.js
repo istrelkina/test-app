@@ -1,7 +1,7 @@
-import "./Header.scss";
-import logo from "./../images/logo.svg";
-import notif from "./../images/icons/notif.svg";
-import exit from "./../images/icons/exit.svg";
+import "./../scss/Header.scss";
+import logo from "./../../images/logo.svg";
+import notif from "./../../images/icons/notif.svg";
+import exit from "./../../images/icons/exit.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
