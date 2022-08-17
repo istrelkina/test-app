@@ -1,6 +1,7 @@
 {
   "name": "test-app",
   "version": "0.1.0",
+  "homepage": "https://strelaweb.ru/test/",
   "private": true,
   "dependencies": {
     "@fontsource/roboto": "^4.5.8",

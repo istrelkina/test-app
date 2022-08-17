@@ -14,23 +14,23 @@ const MainNotifications = () => {
 
             <div className="notif__input">
               <input className="notif__checkbox" type="checkbox" id="email" name="email" />
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
+            </div>
+
+            <div className="notif__input notif__text">
+              <input className="notif__checkbox" type="checkbox" id="push" name="push" defaultChecked={true} />
+              <label htmlFor="push">Push notifications</label>
+              {/* <div className="notif__text">For your mobile or tablet device</div> */}
             </div>
 
             <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="push" name="push" />
-              <label for="push">Push notifications</label>
-              <div className="notif__text">For your mobile or tablet device</div>
+              <input className="notif__checkbox" type="checkbox" id="text" name="text" defaultChecked={true} />
+              <label htmlFor="text">Text Messages</label>
             </div>
 
             <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="text" name="text" />
-              <label for="text">Text Messages</label>
-            </div>
-
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="phone" name="phone" />
-              <label for="phone">Phone Calls</label>
+              <input className="notif__checkbox" type="checkbox" id="phone" name="phone" defaultChecked={true} />
+              <label htmlFor="phone">Phone Calls</label>
             </div>
           </div>
           <div className="notif__messages">
@@ -38,17 +38,17 @@ const MainNotifications = () => {
 
             <div className="notif__input">
               <input className="notif__checkbox" type="checkbox" id="email" name="email" />
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
             </div>
 
             <div className="notif__input">
               <input className="notif__checkbox" type="checkbox" id="push" name="push" />
-              <label for="push">Push notifications</label>
+              <label htmlFor="push">Push notifications</label>
             </div>
 
             <div className="notif__input">
               <input className="notif__checkbox" type="checkbox" id="text" name="text" />
-              <label for="text">Text Messages</label>
+              <label htmlFor="text">Text Messages</label>
             </div>
           </div>
         </div>
