@@ -76,10 +76,19 @@
   .profile__input {
     width: 300px;
   }
-  .main-block__title {
-    display: block;
+}
+
+@media (max-width: 395px) {
+  .profile__field {
+    width: 100%;
   }
-  .h3-desc {
-    margin-left: 0;
+  .profile__input {
+    width: 100%;
+  }
+  .profile__field:nth-child(odd) {
+    margin-right: 0;
+  }
+  .profile__fields {
+    padding: 16px;
   }
 }

@@ -109,3 +109,22 @@
     }
   }
 }
+
+@media (max-width: 715px) {
+  .sidebar {
+    width: 270px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    z-index: 5;
+    top: 64px;
+    left: -310px;
+    transition: all 0.5s;
+    &_open {
+      left: 0;
+    }
+  }
+  .user-nav__item {
+    font-size: 12px;
+  }
+}

@@ -5,3 +5,9 @@
   grid-template-columns: 270px 1fr;
   grid-template-rows: 64px 1fr;
 }
+
+@media (max-width: 715px) {
+  .App {
+    display: block;
+  }
+}

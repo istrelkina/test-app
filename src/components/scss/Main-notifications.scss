@@ -46,3 +46,22 @@
     padding-left: 7px;
   }
 }
+@media (max-width: 620px) {
+  .main-block {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 395px) {
+  .notif__wrapper {
+    display: block;
+  }
+  .notif__notifications {
+    margin-bottom: 24px;
+  }
+  .notif__title {
+    margin-bottom: 12px;
+  }
+  .notif__wrapper {
+    padding: 16px;
+  }
+}

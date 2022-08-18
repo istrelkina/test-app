@@ -22,3 +22,8 @@
     display: block;
   }
 }
+@media (max-width: 620px) {
+  .main__info {
+    padding: 16px;
+  }
+}

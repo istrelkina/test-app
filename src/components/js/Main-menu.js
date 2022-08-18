@@ -21,6 +21,9 @@ const MainMenu = () => {
           </Link>
         </li>
       </ul>
+      <div className="menu-burger">
+        <div className="menu-burger__line"></div>
+      </div>
     </nav>
   );
 };

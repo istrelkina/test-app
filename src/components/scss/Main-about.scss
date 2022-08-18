@@ -45,3 +45,40 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 1180px) {
+  .about {
+    max-width: 375px;
+    margin-bottom: 24px;
+  }
+  .main-block {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 620px) {
+  .about {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 430px) {
+  .about {
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  .about__info {
+    display: block;
+  }
+  .about__text {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 395px) {
+  .about__buttons_upload,
+  .about__buttons_remove {
+    font-size: 11px;
+  }
+  .about__buttons {
+    padding: 16px;
+  }
+}

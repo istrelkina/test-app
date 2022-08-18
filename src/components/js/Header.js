@@ -13,8 +13,8 @@ const Header = () => {
           Devias Kit
         </div>
         <div className="header__info">
-          <span>free</span>
-          See our PRO version for more design components & coded in React follow this link:
+          <span className="header__link-status">free</span>
+          <span className="header__link">See our PRO version for more design components & coded in React follow this link:</span>
           <Link to="/">https://devias.io/products/devias-kit-pro</Link>
         </div>
       </div>
