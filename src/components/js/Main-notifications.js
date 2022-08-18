@@ -37,18 +37,18 @@ const MainNotifications = () => {
             <h3 className="notif__title">Messages</h3>
 
             <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="email" name="email" />
-              <label htmlFor="email">Email</label>
+              <input className="notif__checkbox" type="checkbox" id="msg-email" name="msg-email" />
+              <label htmlFor="msg-email">Email</label>
             </div>
 
             <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="push" name="push" />
-              <label htmlFor="push">Push notifications</label>
+              <input className="notif__checkbox" type="checkbox" id="msg-push" name="msg-push" />
+              <label htmlFor="msg-push">Push notifications</label>
             </div>
 
             <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="text" name="text" />
-              <label htmlFor="text">Text Messages</label>
+              <input className="notif__checkbox" type="checkbox" id="msg-text" name="msg-text" />
+              <label htmlFor="msg-text">Text Messages</label>
             </div>
           </div>
         </div>
