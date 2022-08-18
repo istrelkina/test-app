@@ -38,6 +38,10 @@ const Sidebar = () => {
           <Link to="/">Support</Link>
         </div>
       </div>
+      <div className="sidebar__info">
+        <p className="sidebar__link">See our PRO version for more design components & coded in React follow this link:</p>
+        <Link to="/">https://devias.io/products/devias-kit-pro</Link>
+      </div>
     </section>
   );
 };

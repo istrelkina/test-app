@@ -18,10 +18,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-const burgerMenu = document.querySelector(".menu-burger");
-const sidebar = document.querySelector(".sidebar");
-burgerMenu.addEventListener("click", () => {
-  burgerMenu.classList.toggle("menu-burger_active");
-  sidebar.classList.toggle("sidebar_open");
-});

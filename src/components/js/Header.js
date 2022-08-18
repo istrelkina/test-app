@@ -12,7 +12,7 @@ const Header = () => {
           <img src={logo} alt="Logo" />
           Devias Kit
         </div>
-        <div className="header__info">
+        <div className="header__info info">
           <span className="header__link-status">free</span>
           <span className="header__link">See our PRO version for more design components & coded in React follow this link:</span>
           <Link to="/">https://devias.io/products/devias-kit-pro</Link>
