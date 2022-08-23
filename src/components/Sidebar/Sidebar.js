@@ -1,4 +1,4 @@
-import "./../scss/Sidebar.scss";
+import "./Sidebar.scss";
 import ava from "./../../images/avatar.png";
 import { Link } from "react-router-dom";
 

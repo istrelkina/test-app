@@ -1,4 +1,4 @@
-import "./../scss/Main-notifications.scss";
+import "./Notifications.scss";
 
 const MainNotifications = () => {
   return (

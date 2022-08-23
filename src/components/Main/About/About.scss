@@ -1,4 +1,5 @@
-@import "./var";
+@import "./../../scss/var";
+
 .about {
   @include box-shadow;
   &__info {

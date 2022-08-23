@@ -1,4 +1,4 @@
-import "./../scss/Header.scss";
+import "./Header.scss";
 import logo from "./../../images/logo.svg";
 import notif from "./../../images/icons/notif.svg";
 import exit from "./../../images/icons/exit.svg";

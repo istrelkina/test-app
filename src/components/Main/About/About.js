@@ -1,5 +1,5 @@
-import "./../scss/Main-about.scss";
-import user from "./../../images/user.png";
+import "./About.scss";
+import user from "./../../../images/user.png";
 
 const MainAbout = () => {
   return (
