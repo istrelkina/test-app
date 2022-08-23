@@ -1,6 +1,7 @@
+import Button from "../../Button/Button";
 import "./Profile.scss";
 
-const MainProfile = () => {
+const Profile = () => {
   return (
     <div className="profile main-block">
       <div className="main-block__title">
@@ -27,11 +28,9 @@ const MainProfile = () => {
           <input className="profile__input" type="text" placeholder="Ramnicu Valcea" />
         </div>
       </div>
-      <div className="main-block__buttons">
-        <button className="save">SAVE SETTINGS</button>
-      </div>
+      <Button text="save settings" />
     </div>
   );
 };
 
-export default MainProfile;
+export default Profile;

@@ -1,6 +1,7 @@
+import Button from "../../Button/Button";
 import "./Notifications.scss";
 
-const MainNotifications = () => {
+const Notifications = () => {
   return (
     <div className="notif main-block">
       <div className="main-block__title">
@@ -53,11 +54,9 @@ const MainNotifications = () => {
           </div>
         </div>
       </div>
-      <div className="main-block__buttons">
-        <button className="save save_wide">SAVE</button>
-      </div>
+      <Button text="save" />
     </div>
   );
 };
 
-export default MainNotifications;
+export default Notifications;

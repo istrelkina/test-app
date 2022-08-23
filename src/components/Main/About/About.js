@@ -1,7 +1,7 @@
 import "./About.scss";
 import user from "./../../../images/user.png";
 
-const MainAbout = () => {
+const About = () => {
   return (
     <div className="main__about">
       <div className="about">
@@ -26,4 +26,4 @@ const MainAbout = () => {
   );
 };
 
-export default MainAbout;
+export default About;

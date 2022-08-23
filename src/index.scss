@@ -64,41 +64,12 @@ h3 {
   &__fields {
     border-bottom: 1px solid $hr;
   }
-  &__buttons {
-    padding: 24px;
-  }
-}
-
-.save {
-  background: rgba(98, 2, 238, 0.0001);
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.25px;
-  text-transform: uppercase;
-  color: $active;
-  padding: 16px 12px;
-  transition: all 0.3s;
-  cursor: pointer;
-  &:hover {
-    background-color: $active;
-    color: #fff;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
-  }
-  &_wide {
-    padding: 16px 35px;
-  }
 }
 
 @media (max-width: 1280px) {
   .profile__input {
     font-size: 0.8rem;
     padding: 14px;
-  }
-  .save {
-    font-size: 12px;
   }
 }
 @media (max-width: 830px) {
