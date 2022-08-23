@@ -1,5 +1,5 @@
 import Button from "../../Button/Button";
-import "./Notifications.scss";
+import style from "./Notifications.module.scss";
 
 const Notifications = () => {
   return (
@@ -21,7 +21,6 @@ const Notifications = () => {
             <div className="notif__input notif__text">
               <input className="notif__checkbox" type="checkbox" id="push" name="push" defaultChecked={true} />
               <label htmlFor="push">Push notifications</label>
-              {/* <div className="notif__text">For your mobile or tablet device</div> */}
             </div>
 
             <div className="notif__input">

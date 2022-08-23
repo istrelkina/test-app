@@ -1,32 +1,21 @@
 import Button from "../../Button/Button";
-import "./Profile.scss";
+import Input from "../../Input/Input";
+import style from "./Profile.module.scss";
 
 const Profile = () => {
   return (
-    <div className="profile main-block">
+    <div className="main-block">
       <div className="main-block__title">
         <h3>Basic Profile</h3>
         <div className="h3-desc">The information can be edited from your profile page</div>
       </div>
-      <div className="main-block__fields profile__fields">
-        <div className="profile__field profile__field_text">
-          <input className="profile__input" type="text" placeholder="First Name" />
-        </div>
-        <div className="profile__field profile__field_active">
-          <input className="profile__input profile__input_active" type="text" placeholder="Manea" />
-        </div>
-        <div className="profile__field">
-          <input className="profile__input" type="text" placeholder="adrian_shp@yahoo.com" />
-        </div>
-        <div className="profile__field">
-          <input className="profile__input" type="text" placeholder="0752549328" />
-        </div>
-        <div className="profile__field">
-          <input className="profile__input" type="text" placeholder="Romania" />
-        </div>
-        <div className="profile__field">
-          <input className="profile__input" type="text" placeholder="Ramnicu Valcea" />
-        </div>
+      <div className={`main-block__fields ${style.fields}`}>
+        <Input name="First Name" title="First Name" state="active" />
+        <Input name="Manea" title="Last Name" />
+        <Input name="adrian_shp@yahoo.com" title="Email" />
+        <Input name="0752549328" title="Phone" />
+        <Input name="Romania" title="Country" />
+        <Input name="Ramnicu Valcea" title="Region" />
       </div>
       <Button text="save settings" />
     </div>

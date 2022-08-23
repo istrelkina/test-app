@@ -1,0 +1,13 @@
+@import "./.././../../index.scss";
+
+.fields {
+  padding: 24px 24px 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 395px) {
+  .fields {
+    padding: 16px;
+  }
+}
