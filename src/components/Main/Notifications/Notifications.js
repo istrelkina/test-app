@@ -1,55 +1,35 @@
 import Button from "../../Button/Button";
+import Checkbox from "../../Checkbox/Checkbox";
 import style from "./Notifications.module.scss";
 
 const Notifications = () => {
   return (
-    <div className="notif main-block">
+    <div className={`${style.notif} main-block`}>
       <div className="main-block__title">
         <h3>Notifications</h3>
         <div className="h3-desc">Manage the notifications emailing</div>
       </div>
-      <div className="main-block__fields notif__fields">
-        <div className="notif__wrapper">
-          <div className="notif__notifications">
-            <h3 className="notif__title">Notifications</h3>
+      <div className={`main-block__fields ${style.fields}`}>
+        <div className={style.wrapper}>
+          <div className={style.notifications}>
+            <h3 className={style.title}>Notifications</h3>
 
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="email" name="email" />
-              <label htmlFor="email">Email</label>
-            </div>
+            <Checkbox name="email" label="Email" />
+            <Checkbox name="push" label="Push notifications" state="text" />
+            <Checkbox name="text" label="Text Messages" />
+            <Checkbox name="phone" label="Phone Calls" />
 
-            <div className="notif__input notif__text">
+            {/* <div className="notif__input notif__text">
               <input className="notif__checkbox" type="checkbox" id="push" name="push" defaultChecked={true} />
               <label htmlFor="push">Push notifications</label>
-            </div>
-
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="text" name="text" defaultChecked={true} />
-              <label htmlFor="text">Text Messages</label>
-            </div>
-
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="phone" name="phone" defaultChecked={true} />
-              <label htmlFor="phone">Phone Calls</label>
-            </div>
+  </div>*/}
           </div>
-          <div className="notif__messages">
-            <h3 className="notif__title">Messages</h3>
+          <div className={style.messages}>
+            <h3 className={style.title}>Messages</h3>
 
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="msg-email" name="msg-email" />
-              <label htmlFor="msg-email">Email</label>
-            </div>
-
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="msg-push" name="msg-push" />
-              <label htmlFor="msg-push">Push notifications</label>
-            </div>
-
-            <div className="notif__input">
-              <input className="notif__checkbox" type="checkbox" id="msg-text" name="msg-text" />
-              <label htmlFor="msg-text">Text Messages</label>
-            </div>
+            <Checkbox name="msg-email" label="Email" />
+            <Checkbox name="msg-push" label="Push notifications" />
+            <Checkbox name="msg-text" label="Text Messages" />
           </div>
         </div>
       </div>
