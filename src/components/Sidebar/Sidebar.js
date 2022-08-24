@@ -3,7 +3,6 @@ import ava from "./../../images/avatar.png";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { MenuContext } from "./../Main/Menu/context/navState";
-// import PropTypes from "prop-types";
 
 const Sidebar = ({ children }) => {
   const { isMenuOpen } = useContext(MenuContext);

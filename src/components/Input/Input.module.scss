@@ -29,7 +29,8 @@
   border-radius: 4px;
   position: relative;
   &:focus {
-    // border: 2px solid $active;
+    outline: 2px solid $active;
+    border: none;
     & ~ span::before {
       content: attr(title);
       position: absolute;
@@ -43,8 +44,6 @@
       padding-left: 5px;
       height: 16px;
     }
-  }
-  &:focus {
     & ~ span::after {
       content: "Assistive text";
       position: absolute;
