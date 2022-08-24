@@ -15,8 +15,8 @@ const Profile = () => {
           <Input name="Manea" title="Last Name" type="text" />
           <Input name="adrian_shp@yahoo.com" title="Email" type="email" />
           <Input name="0752549328" title="Phone" type="tel" />
-          <Input name="Romania" title="text" />
-          <Input name="Ramnicu Valcea" title="text" />
+          <Input name="Romania" title="Country" />
+          <Input name="Ramnicu Valcea" title="Region" />
         </div>
         <Button text="save settings" />
       </form>
