@@ -9,15 +9,17 @@ const Profile = () => {
         <h3>Basic Profile</h3>
         <div className="h3-desc">The information can be edited from your profile page</div>
       </div>
-      <div className={`main-block__fields ${style.fields}`}>
-        <Input name="First Name" title="First Name" state="active" />
-        <Input name="Manea" title="Last Name" />
-        <Input name="adrian_shp@yahoo.com" title="Email" />
-        <Input name="0752549328" title="Phone" />
-        <Input name="Romania" title="Country" />
-        <Input name="Ramnicu Valcea" title="Region" />
-      </div>
-      <Button text="save settings" />
+      <form action="">
+        <div className={`main-block__fields ${style.fields}`}>
+          <Input name="First Name" title="First Name" state="active" type="text" />
+          <Input name="Manea" title="Last Name" type="text" />
+          <Input name="adrian_shp@yahoo.com" title="Email" type="email" />
+          <Input name="0752549328" title="Phone" type="tel" />
+          <Input name="Romania" title="text" />
+          <Input name="Ramnicu Valcea" title="text" />
+        </div>
+        <Button text="save settings" />
+      </form>
     </div>
   );
 };

@@ -3,7 +3,9 @@ import style from "./Button.module.scss";
 const Button = (props) => {
   return (
     <div className={style.buttons}>
-      <button className={style.save}>{props.text}</button>
+      <button className={style.save} type="submit">
+        {props.text}
+      </button>
     </div>
   );
 };

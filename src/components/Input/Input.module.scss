@@ -29,6 +29,7 @@
   border-radius: 4px;
   position: relative;
   &:focus {
+    // border: 2px solid $active;
     & ~ span::before {
       content: attr(title);
       position: absolute;
