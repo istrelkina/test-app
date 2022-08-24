@@ -30,3 +30,8 @@
     padding-left: 7px;
   }
 }
+@media (max-width: 395px) {
+  .input:last-child {
+    margin-bottom: 0;
+  }
+}

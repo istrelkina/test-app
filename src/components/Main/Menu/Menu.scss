@@ -29,63 +29,6 @@
     }
   }
 }
-.menu-burger {
-  position: absolute;
-  z-index: 6;
-  right: 24px;
-  top: 28px;
-  width: 30px;
-  display: none;
-  transition: all 0.3s;
-
-  &__line {
-    height: 2px;
-    width: 30px;
-    background-color: $text-nav;
-    position: relative;
-    transition: all 0.3s;
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    top: -8px;
-    left: 0;
-    height: 2px;
-    width: 30px;
-    background-color: $text-nav;
-    transition: all 0.3s;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    height: 2px;
-    width: 30px;
-    background-color: $text-nav;
-    transition: all 0.3s;
-  }
-
-  &_active {
-    .menu-burger__line {
-      transform: scale(0);
-    }
-    &::before {
-      transform: rotate(45deg);
-      top: 0;
-    }
-    &::after {
-      top: 0;
-      transform: rotate(-45deg);
-    }
-  }
-}
-@media (max-width: 715px) {
-  .menu-burger {
-    display: block;
-  }
-}
 @media (max-width: 620px) {
   .menu {
     padding: 16px 0 0 16px;

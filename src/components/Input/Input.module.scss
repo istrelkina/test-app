@@ -74,9 +74,13 @@
 @media (max-width: 395px) {
   .field {
     width: 100%;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
   .input {
     width: 100%;
+    font-size: 14px;
   }
   .field:nth-child(odd) {
     margin-right: 0;

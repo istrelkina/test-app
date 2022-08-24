@@ -1,14 +1,8 @@
 import "./Menu.scss";
 import { Link } from "react-router-dom";
+import Burger from "./Burger/Burger";
 
 const MainMenu = () => {
-  function openMenu() {
-    const burgerMenu = document.querySelector(".menu-burger");
-    const sidebar = document.querySelector(".sidebar");
-    burgerMenu.classList.toggle("menu-burger_active");
-    sidebar.classList.toggle("sidebar_open");
-    document.body.classList.toggle("lock");
-  }
   return (
     <nav className="menu">
       <ul className="menu__list">
@@ -28,9 +22,7 @@ const MainMenu = () => {
           </Link>
         </li>
       </ul>
-      <div className="menu-burger" onClick={openMenu}>
-        <div className="menu-burger__line"></div>
-      </div>
+      <Burger />
     </nav>
   );
 };

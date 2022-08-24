@@ -1,10 +1,14 @@
 import "./Sidebar.scss";
 import ava from "./../../images/avatar.png";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { MenuContext } from "./../Main/Menu/context/navState";
+// import PropTypes from "prop-types";
 
-const Sidebar = () => {
+const Sidebar = ({ children }) => {
+  const { isMenuOpen } = useContext(MenuContext);
   return (
-    <section className="sidebar">
+    <section className={`sidebar${isMenuOpen ? " sidebar_open" : ""}`}>
       <div className="sidebar__user">
         <img src={ava} alt="Avatar" />
         <div className="sidebar__name">Roman Kutepov</div>
